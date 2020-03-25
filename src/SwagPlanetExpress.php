@@ -6,4 +6,5 @@ use Shopware\Core\Framework\Plugin;
 
 class SwagPlanetExpress extends Plugin
 {
+
 }
