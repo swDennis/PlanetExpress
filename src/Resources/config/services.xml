@@ -10,5 +10,9 @@
             <tag name="shopware.entity.definition" entity="swag_planet_express_delivery_boy"/>
         </service>
 
+        <service id="Swag\PlanetExpress\DeliveryPackage\DeliveryPackageDefinition">
+            <tag name="shopware.entity.definition" entity="swag_planet_express_delivery_package"/>
+        </service>
+
     </services>
 </container>

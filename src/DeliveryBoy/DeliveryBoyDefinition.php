@@ -18,7 +18,6 @@ use Shopware\Core\Framework\DataAbstractionLayer\Field\IdField;
 use Shopware\Core\Framework\DataAbstractionLayer\Field\PasswordField;
 use Shopware\Core\Framework\DataAbstractionLayer\Field\StringField;
 use Shopware\Core\Framework\DataAbstractionLayer\FieldCollection;
-use Swag\CustomizedProducts\Template\TemplateCollection;
 
 class DeliveryBoyDefinition extends EntityDefinition
 {
