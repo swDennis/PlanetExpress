@@ -1,0 +1,26 @@
+# ignore ide settings
+.idea/
+.vscode
+
+# ignore test output
+.phpunit.result.cache
+**/app/artifacts
+
+# ignore dependency folders
+vendor
+/composer.lock
+node_modules
+package-lock.json
+
+#ignore bundle output
+src/Resources/public/**
+!src/Resources/public/.gitkeep
+/build
+src/Resources/app/administration/build/**
+!tests/Core/Framework/Plugin/_fixtures/with-webpack/Resources/app/storefront/build/webpack.config.js
+
+#ignore caches
+.php_cs.cache
+
+cypress.env.json
+!dev-ops/gitlab/cypress.env.json
